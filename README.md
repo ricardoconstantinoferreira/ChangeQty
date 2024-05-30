@@ -1,7 +1,5 @@
-The README.md file content is generated automatically, see [Magento module README.md](https://github.com/magento/devdocs/wiki/Magento-module-README.md) for more information.
-
 # Ferreira_ChangeQty module
-
+* Esse é um módulo magento que serve para trocar a quantidade do produto pela home
 
 
 ## Habilitar módulo
@@ -16,11 +14,6 @@ foram utilizados para fazer o trabalho.
 
 ## Informações adicionais
 
-* Usei knockoutjs para trazer as informações no load da página, poderia ter usado
-block ou viewModel, mas preferi knockoutjs para não encher o phtml de códigos php.
-* Usei duas webapi para trazer as informações e mudar a quantidade de estoque, pois
-achei simples, pois consegui criar os js mais separados nas suas pastas
-* Para adicionar o block na home fiz um simples código no <b>cms_index_index.xml</b>, 
-não vi necessidade de código complexo ali.
-# ChangeQty
-# ChangeQty
+* No admin, em Stores -> Configuration -> Ferreira -> Ferreira Selected -> Inform the Product SKU informe o 
+Sku do produto, ele aparecerá na home e será possível a sua edição
+
