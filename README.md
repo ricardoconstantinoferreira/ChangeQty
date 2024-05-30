@@ -1,5 +1,5 @@
 # Ferreira_ChangeQty module
-* Esse é um módulo magento que serve para trocar a quantidade do produto pela home
+* Esse é um módulo MAGENTO 2 que serve para trocar a quantidade do produto pela home
 
 
 ## Habilitar módulo
