@@ -1,0 +1,17 @@
+<div id="special_product" data-bind="scope:'specialproduct'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#special_product": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "specialproduct": {
+                            "component": "Ferreira_ChangeQty/js/view/special_product",
+                            "template" : "Ferreira_ChangeQty/special_product"
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</div>

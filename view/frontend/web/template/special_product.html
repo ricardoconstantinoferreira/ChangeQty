@@ -1,0 +1,25 @@
+<div class="item-component" data-bind="visible: visible()">
+    <div>
+        <img data-bind="attr: {'src': image}" alt="product" height="70px" width="70px" />
+    </div>
+    <input type="hidden" id="sku" data-bind="value: sku" />
+    <div class="row">
+        <div style="float: left" data-bind="i18n: 'Title:'"></div>
+        <div data-bind="text: title"></div>
+    </div>
+
+    <div class="row">
+        <div style="float: left" data-bind="i18n: 'Price: '"></div>
+        <div data-bind="text: price"></div>
+    </div>
+
+    <div class="row">
+        <div style="float: left" data-bind="i18n: 'Qty Available: '"></div>
+        <div data-bind="text: qty, visible: !isEdit()"></div>
+        <input type="text" id="qty" data-bind="visible: isEdit()" class="input-text-range" />
+
+        <button type="button" id="edit" data-bind="i18n: 'Edit', visible: !isEdit()"></button>
+        <button type="button" id="cancel" data-bind="i18n: 'Cancel', visible: isEdit()"></button>
+        <button type="button" id="update" data-bind="i18n: 'Update', visible: isEdit()"></button>
+    </div>
+</div>

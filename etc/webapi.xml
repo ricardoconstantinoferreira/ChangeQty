@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+
+    <route url="/V1/product-select/get-product-select/" method="GET">
+        <service class="Ferreira\ChangeQty\Api\GetProductSelectInterface" method="execute"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+
+    <route url="/V1/product-select/update-qty-product-select/" method="PUT">
+        <service class="Ferreira\ChangeQty\Api\UpdateQtyProductSelectInterface" method="execute"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>
