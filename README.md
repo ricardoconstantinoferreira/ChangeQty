@@ -14,6 +14,5 @@ foram utilizados para fazer o trabalho.
 
 ## Informações adicionais
 
-* No admin, em Stores -> Configuration -> Ferreira -> Ferreira Selected -> Inform the Product SKU informe o 
-Sku do produto, ele aparecerá na home e será possível a sua edição
+* Módudo feito usando knockoutjs e WEBAPI do magento, pattern amplamente usado no Magento
 
